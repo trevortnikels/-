@@ -1,0 +1,143 @@
+/* Включение отступа и границы в общую ширину и высоту элемента */
+* {
+  box-sizing: border-box;
+
+}
+html {
+  background:  #2261cb;
+}
+
+body {
+
+  padding: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50em;
+
+}
+/* Удалите поля и отступы из списка */
+ul {
+  margin: 0;
+  padding:0;
+  list-style-type: none;
+  text-align: left;
+  margin-top: 20%;
+
+}
+
+/* Стиль элементов списка */
+ul li {
+  cursor: pointer;
+  position: relative;
+  padding: 20px 0px 20px 10px;
+  border-radius: 8px;
+  background: #c5e1e5;
+  transition: 0.2s;     /*чтоб было */
+  border-color: #adbbbc;
+  border-style: solid;
+  border-width: 1px;
+  margin-top: 10px;
+  font-family: Georgia, serif; /* стиль шрифта текста */
+  font-size: 20px;          /*размер текста */
+  vertical-align: middle;
+
+  /* сделайте элементы списка невыбираемыми */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Более темный фон-цвет при наведении */
+ul li:hover {
+  background: #ddd;
+
+}
+
+.close:hover {
+  background-color: #f44336;
+
+  color: white;
+}
+
+/* Стиль заголовка */
+.header {
+  background-color: white;
+  padding: 200px 40px;
+  color: black;
+  text-align: center;
+  border-radius: 16px;
+}
+
+/* Очистить поплавки после заголовка */
+.header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Стиль ввода */
+input {
+  margin:  0px 50px 0px 0;
+  border: solid;
+  border-color: #2261cb;
+  border-radius: 8px;
+  width: 75%;
+  padding: 15px;
+  float: left;
+  font-size: 16px;
+  border-width:
+
+}
+
+/* Стиль кнопки "Добавить" */
+.addBtn {
+  padding: 15px;
+  width: 15%;
+  background: #4573D5;
+  color: white;
+  float: left;
+  text-align: center;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 8px;
+  border-color: #2261cb;
+}
+
+.addBtn:hover {
+  background-color: #bbb;
+
+}
+
+.btn {
+  position: absolute;
+  background-color:#1d1ba3; /* Синий фон */
+  border: none; /* Удалить границы */
+  color: white; /* Белый текст */
+  padding: 18px 18px; /* Немного отступов */
+  font-size: 20px; /* Установите размер шрифта */
+  cursor: pointer; /* Указатель мыши при наведении */
+  right: 14;
+  top: 3;
+  border-radius: 8px;
+}
+.btn:hover {
+  background-color: RoyalBlue;
+  }
+  .edit
+   {
+     position: absolute;
+     background-color:#1d1ba3; /* Синий фон */
+     border: none; /* Удалить границы */
+     color: white; /* Белый текст */
+     padding: 18px 18px; /* Немного отступов */
+     font-size: 20px; /* Установите размер шрифта */
+     cursor: pointer; /* Указатель мыши при наведении */
+     right: 75;
+     top: 3;
+     border-radius: 8px;
+  }
+  .edit:hover {
+    background-color: RoyalBlue;
+    }
